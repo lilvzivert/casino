@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <h1>Casino</h1>
+</header>
+<main class="main">
+    <div class="allgames">
+        <div class="game">
+            <h2>Test your luck</h2>
+            <p>Price: 60$</p>
+            <button type="button" id="button">tap</button>
+            <div class="wincont hid">
+                <div class="win"></div>
+                <div class="cong">Congratulations!</div>
+            </div>
+        </div>
+    </div>
+    <div class="balance">
+        Balance: <span id="changebal">0</span>$
+    </div>
+    <button class="vyvod" id="vyvod">Withdraw</button>
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
